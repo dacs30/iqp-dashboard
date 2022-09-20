@@ -3,6 +3,7 @@ import ElevateAppBar from './Components/MainAppBar';
 import IntroductionsBlock from './Components/FirstPage';
 import ParticlesBg from 'particles-bg'
 import WhatIsTheProject from './Components/WhatIsTheProject';
+import DatasetsTable from './Components/DatasetsTable';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -18,6 +19,7 @@ function App() {
       <ElevateAppBar />
       <IntroductionsBlock />
       <WhatIsTheProject />
+      <DatasetsTable />
     </div>
   );
 }
