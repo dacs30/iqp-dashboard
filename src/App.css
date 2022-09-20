@@ -13,8 +13,31 @@
   }
 }
 
+.section {
+  height: 100vh;
+}
+
+.section-middle-text {
+  margin: 0;
+  position: relative;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.particles-bg {
+  position: fixed !important;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .App-header {
-  background-color: #d1d1d1;
+  /* background-color: #d1d1d1; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +55,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
