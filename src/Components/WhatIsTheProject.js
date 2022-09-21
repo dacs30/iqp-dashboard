@@ -17,7 +17,7 @@ function WhatIsTheProject() {
                             style={{ alignSelf: 'center' }}
                         />
                     </Grid>
-                    <Grid style={{textAlign: 'center'}} item xs={12} md={6}>
+                    <Grid style={{textAlign: 'justify'}} item xs={12} md={6}>
                         <Typography variant="h4" component="div" gutterBottom>
                             What is the project about?
                         </Typography>
