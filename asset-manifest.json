@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dacs30/iqp-dashboard/static/css/main.f96ac898.css",
-    "main.js": "/dacs30/iqp-dashboard/static/js/main.d6e570fe.js",
-    "static/js/787.56d9c4e8.chunk.js": "/dacs30/iqp-dashboard/static/js/787.56d9c4e8.chunk.js",
-    "static/media/WPI_logo.jpg": "/dacs30/iqp-dashboard/static/media/WPI_logo.6f4b012c8aa9c3f7f552.jpg",
-    "index.html": "/dacs30/iqp-dashboard/index.html",
-    "main.f96ac898.css.map": "/dacs30/iqp-dashboard/static/css/main.f96ac898.css.map",
-    "main.d6e570fe.js.map": "/dacs30/iqp-dashboard/static/js/main.d6e570fe.js.map",
-    "787.56d9c4e8.chunk.js.map": "/dacs30/iqp-dashboard/static/js/787.56d9c4e8.chunk.js.map"
+    "main.css": "/iqp-dashboard/static/css/main.f96ac898.css",
+    "main.js": "/iqp-dashboard/static/js/main.95cd87b9.js",
+    "static/js/787.56d9c4e8.chunk.js": "/iqp-dashboard/static/js/787.56d9c4e8.chunk.js",
+    "static/media/WPI_logo.jpg": "/iqp-dashboard/static/media/WPI_logo.6f4b012c8aa9c3f7f552.jpg",
+    "index.html": "/iqp-dashboard/index.html",
+    "main.f96ac898.css.map": "/iqp-dashboard/static/css/main.f96ac898.css.map",
+    "main.95cd87b9.js.map": "/iqp-dashboard/static/js/main.95cd87b9.js.map",
+    "787.56d9c4e8.chunk.js.map": "/iqp-dashboard/static/js/787.56d9c4e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f96ac898.css",
-    "static/js/main.d6e570fe.js"
+    "static/js/main.95cd87b9.js"
   ]
 }
