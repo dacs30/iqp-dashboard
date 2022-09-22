@@ -4,7 +4,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
-import { Button, Icon, Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 
 function ElevationScroll(props) {
     const { children, window } = props;
@@ -35,26 +35,6 @@ ElevationScroll.propTypes = {
 };
 
 export default function ElevateAppBar(props) {
-    const [state, setState] = React.useState({
-        mobileView: false,
-    });
-
-    const { mobileView } = state;
-
-    React.useEffect(() => {
-        const setResponsiveness = () => {
-            return window.innerWidth < 900
-                ? setState((prevState) => ({ ...prevState, mobileView: true }))
-                : setState((prevState) => ({ ...prevState, mobileView: false }));
-        };
-
-        setResponsiveness();
-        window.addEventListener("resize", () => setResponsiveness());
-
-        return () => {
-            window.removeEventListener("resize", () => setResponsiveness());
-        }
-    }, []);
 
     return (
         <React.Fragment>
@@ -62,7 +42,7 @@ export default function ElevateAppBar(props) {
             <ElevationScroll {...props}>
                 <AppBar>
                     <Toolbar>
-                        {mobileView ? (
+                        {props.mobileView ? (
                             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                                 UMLD for CVD
                             </Typography>
@@ -70,7 +50,7 @@ export default function ElevateAppBar(props) {
                             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                                 Underrepresentation in Machine Learning Datasets for CVD
                             </Typography>)}
-                        <Button target={'_blank'} color="inherit" href="https://github.com/orestropi/final">GitHub</Button>
+                        <Button target={'_blank'} color="inherit" href="https://github.com/dacs30/iqp-dashboard">GitHub</Button>
                     </Toolbar>
                 </AppBar>
             </ElevationScroll>

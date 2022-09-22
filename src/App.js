@@ -7,9 +7,31 @@ import DatasetsTable from './Components/DatasetsTable';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import EthinicityComparison from './Components/EthinicityComparison';
+import { useState, useEffect } from 'react';
 
 
 function App() {
+  const [state, setState] = useState({
+    mobileView: false,
+  });
+
+  const { mobileView } = state;
+
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 900
+        ? setState((prevState) => ({ ...prevState, mobileView: true }))
+        : setState((prevState) => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+    window.addEventListener("resize", () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener("resize", () => setResponsiveness());
+    }
+  }, []);
+
   AOS.init();
 
   return (
@@ -17,11 +39,11 @@ function App() {
       <div className='particles-bg'>
         <ParticlesBg type='cobweb' bg={true} />
       </div>
-      <ElevateAppBar />
+      <ElevateAppBar mobileView={mobileView} />
       <IntroductionsBlock />
       <WhatIsTheProject />
-      <DatasetsTable />
-      <EthinicityComparison />
+      <DatasetsTable mobileView={mobileView} />
+      <EthinicityComparison mobileView={mobileView} />
     </div>
   );
 }

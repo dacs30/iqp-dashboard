@@ -13,9 +13,15 @@ const rows = [
     createData('Heart and Disease Data Set', 1988, 5, "N", "Y", "https://archive.ics.uci.edu/ml/datasets/Heart+Disease"),
 ];
 
-function DatasetsTable() {
+function DatasetsTable(props) {
+
+    // const style = props.mobileView ? { backgroundColor: 'rgb(52, 58, 64)', paddingTop: '3rem' } : { backgroundColor: 'rgb(52, 58, 64)' }
+
+    const style = props.mobileView ? { paddingTop: '3rem' } : {  }
+
+
     return (
-        <div style={{ backgroundColor: 'rgb(52, 58, 64)' }} className='section'>
+        <div style={style} className='section'>
             <div data-aos='zoom-in' className='card' id='table-papers'>
                 <Grid container spacing={4}>
                     <Grid style={{ textAlign: 'center' }} item xs={12} md={12}>
@@ -63,9 +69,17 @@ function DatasetsTable() {
                         </TableContainer>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
-                        <Typography variant="body" component="div" gutterBottom>
+                        <Typography variant="caption" component="div" gutterBottom>
                             *Note: The link to the dataset is provided in the name of the dataset.
                             **Note: The number of citations found is the number of times the dataset was used in a paper analysed.
+                        </Typography>
+                    </Grid>
+                    <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
+                        <Typography variant="body" component="div" gutterBottom>
+                            It is important to notice that, the Heart and Disease Data Set is a dataset that was created by
+                            researchers from the University of California, Irvine in 1988, and is still being used for research.
+                            However, it does not have the ethinicity as a feature, which, considering modern ML algorthms, 
+                            it can create bias torwards some groups.
                         </Typography>
                     </Grid>
                 </Grid>
