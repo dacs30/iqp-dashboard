@@ -15,7 +15,7 @@ const rows = [
 
 function DatasetsTable() {
     return (
-        <div style={{ backgroundColor: 'GrayText' }} className='section'>
+        <div style={{ backgroundColor: 'rgb(52, 58, 64)' }} className='section'>
             <div data-aos='zoom-in' className='card' id='table-papers'>
                 <Grid container spacing={4}>
                     <Grid style={{ textAlign: 'center' }} item xs={12} md={12}>

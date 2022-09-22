@@ -6,6 +6,7 @@ import WhatIsTheProject from './Components/WhatIsTheProject';
 import DatasetsTable from './Components/DatasetsTable';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import EthinicityComparison from './Components/EthinicityComparison';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <IntroductionsBlock />
       <WhatIsTheProject />
       <DatasetsTable />
+      <EthinicityComparison />
     </div>
   );
 }
