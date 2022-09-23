@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import EthinicityComparison from './Components/EthinicityComparison';
 import { useState, useEffect } from 'react';
+import HowBigIsTheProblem from './Components/HowBigIsTheProblem';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       <WhatIsTheProject />
       <DatasetsTable mobileView={mobileView} />
       <EthinicityComparison mobileView={mobileView} />
+      <HowBigIsTheProblem mobileView={mobileView} />
     </div>
   );
 }
