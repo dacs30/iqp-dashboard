@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/iqp-dashboard/static/css/main.f96ac898.css",
-    "main.js": "/iqp-dashboard/static/js/main.b7cf05be.js",
+    "main.css": "/iqp-dashboard/static/css/main.03004107.css",
+    "main.js": "/iqp-dashboard/static/js/main.81f3d263.js",
     "static/js/787.56d9c4e8.chunk.js": "/iqp-dashboard/static/js/787.56d9c4e8.chunk.js",
     "static/media/WPI_logo.jpg": "/iqp-dashboard/static/media/WPI_logo.6f4b012c8aa9c3f7f552.jpg",
+    "static/media/clipboard.png": "/iqp-dashboard/static/media/clipboard.63bf270ce06c27f992c1.png",
     "index.html": "/iqp-dashboard/index.html",
-    "main.f96ac898.css.map": "/iqp-dashboard/static/css/main.f96ac898.css.map",
-    "main.b7cf05be.js.map": "/iqp-dashboard/static/js/main.b7cf05be.js.map",
+    "main.03004107.css.map": "/iqp-dashboard/static/css/main.03004107.css.map",
+    "main.81f3d263.js.map": "/iqp-dashboard/static/js/main.81f3d263.js.map",
     "787.56d9c4e8.chunk.js.map": "/iqp-dashboard/static/js/787.56d9c4e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f96ac898.css",
-    "static/js/main.b7cf05be.js"
+    "static/css/main.03004107.css",
+    "static/js/main.81f3d263.js"
   ]
 }
