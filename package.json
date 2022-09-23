@@ -1,7 +1,7 @@
 {
   "name": "iqp-dashboard",
   "version": "0.1.0",
-  "homepage": "https://github.com/dacs30/iqp-dashboard",
+  "homepage": "https://dacs30.github.io/iqp-dashboard",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",

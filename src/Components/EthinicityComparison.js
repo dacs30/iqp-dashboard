@@ -183,7 +183,7 @@ function EthinicityComparison(props) {
                         </Typography>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
-                        <Typography variant="h6" component="div" gutterBottom>
+                        <Typography variant="body" component="div" gutterBottom>
                             We took each dataset that contained ethinicity as one of each features and compared it's
                             percentages. The following bar graph is the result of the comparison.
                         </Typography>
@@ -244,7 +244,7 @@ function EthinicityComparison(props) {
                             decrease the accuracy of the model. To solve this problem, we can use a technique called
                             oversampling. Oversampling is a technique that consists of creating new samples of the
                             minority class. This technique is used to increase the number of samples of the minority class
-                            and balance the dataset. we can see this technique being used in the CDC dataset.
+                            and balance the dataset. We can see this technique being used in the CDC dataset.
                         </Typography>
                     </Grid>
                 </Grid>

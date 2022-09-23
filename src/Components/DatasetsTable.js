@@ -30,7 +30,7 @@ function DatasetsTable(props) {
                         </Typography>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
-                        <Typography variant="h6" component="div" gutterBottom>
+                        <Typography variant="body" component="div" gutterBottom>
                             During our research, the following datasets were used found as the most popular
                             datasets for machine learning models for cardiovascular diseases.
                         </Typography>
