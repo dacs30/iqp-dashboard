@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/iqp-dashboard/static/css/main.f96ac898.css",
-    "main.js": "/iqp-dashboard/static/js/main.16253e8b.js",
+    "main.js": "/iqp-dashboard/static/js/main.3061c798.js",
     "static/js/787.56d9c4e8.chunk.js": "/iqp-dashboard/static/js/787.56d9c4e8.chunk.js",
     "static/media/WPI_logo.jpg": "/iqp-dashboard/static/media/WPI_logo.6f4b012c8aa9c3f7f552.jpg",
     "index.html": "/iqp-dashboard/index.html",
     "main.f96ac898.css.map": "/iqp-dashboard/static/css/main.f96ac898.css.map",
-    "main.16253e8b.js.map": "/iqp-dashboard/static/js/main.16253e8b.js.map",
+    "main.3061c798.js.map": "/iqp-dashboard/static/js/main.3061c798.js.map",
     "787.56d9c4e8.chunk.js.map": "/iqp-dashboard/static/js/787.56d9c4e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f96ac898.css",
-    "static/js/main.16253e8b.js"
+    "static/js/main.3061c798.js"
   ]
 }
