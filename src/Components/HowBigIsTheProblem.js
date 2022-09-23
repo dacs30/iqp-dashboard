@@ -65,10 +65,10 @@ function HowBigIsTheProblem() {
                         </Typography>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
-                        <Typography variant="h6" component="div" gutterBottom>
+                        <Typography variant="body" component="div" gutterBottom>
                             When using machine learning models to predict cardiovascular diseases,
                             data such as ethinicity, age, and gender, play a huge role in creating higher
-                            accuracy models. The following graph shows the difference in accuracym between
+                            accuracy models. The following graph shows the difference in accuracy between
                             models that have a balanced ethinicity as a feature and models that don't.
                         </Typography>
                     </Grid>
@@ -90,7 +90,7 @@ function HowBigIsTheProblem() {
                         </Typography>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
-                        <Typography variant="h6" component="div" gutterBottom>
+                        <Typography variant="body" component="div" gutterBottom>
                             It is noticible how ethinicity can increase results. It is also more alarming
                             to think of that a huge portion of current in use models were trained using
                             datasets that not even have ethinicity as a feature.

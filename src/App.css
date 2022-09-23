@@ -22,6 +22,15 @@
   justify-content: center;
 }
 
+.small-section {
+  min-height: 60vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .chartContainer {
   height: 30rem !important;
 }

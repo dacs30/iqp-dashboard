@@ -5,7 +5,7 @@ import { Typography, Card, CardMedia, CardContent, Grid } from '@mui/material'
 function WhatIsTheProject() {
 
     return (
-        <div className='section' data-aos='zoom-in' data-aos-delay='300'>
+        <div className='small-section' data-aos='zoom-in' data-aos-delay='300'>
             <div className='card'>
                 <Grid container spacing={4}>
                     <Grid style={{display:'flex',justifyContent:'center',alignItems:'center'}} item xs={12} md={6}>
