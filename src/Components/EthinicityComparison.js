@@ -198,6 +198,16 @@ function EthinicityComparison(props) {
                         </div>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
+                        <Typography variant="body" component="div" gutterBottom>
+                            Objectives of the visualization:
+                        </Typography>
+                        <Typography variant="body" component="div" gutterBottom>
+                            <ul>
+                                <li>Compare ethinicity distribution across the colected datasets</li>
+                            </ul>
+                        </Typography>
+                    </Grid>
+                    <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
                         <Typography variant="caption" component="div" gutterBottom>
                             *Tip: Click the top labels to filter per dataset.
                         </Typography>
@@ -229,6 +239,16 @@ function EthinicityComparison(props) {
                             {alignment === "Radar" && <Radar style={graphStyle} data-aos-once='true' data-aos="zoom-in" data={dataRadar} options={optionsRadar} />}
                             {alignment === "Stacked bar" && <Bar style={graphStyle} data-aos-once='true' data-aos="zoom-in" data={dataStack} options={optionsStack} plugins={[ChartDataLabels]} />}
                         </div>
+                    </Grid>
+                    <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
+                        <Typography variant="body" component="div" gutterBottom>
+                            Objectives of the visualization:
+                        </Typography>
+                        <Typography variant="body" component="div" gutterBottom>
+                            <ul>
+                                <li>Highlight the difference in ethinicity distribution when compared to the national census</li>
+                            </ul>
+                        </Typography>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
                         <Typography variant="body" component="div" gutterBottom>

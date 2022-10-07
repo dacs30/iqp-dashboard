@@ -91,6 +91,17 @@ function HowBigIsTheProblem() {
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
                         <Typography variant="body" component="div" gutterBottom>
+                            Objectives of the visualization:
+                        </Typography>
+                        <Typography variant="body" component="div" gutterBottom>
+                            <ul>
+                                <li>Highlight the importance of rece Specific machine learning models</li>
+                                <li>Highlight the importance of ethinicity as a feature in machine learning models to improve their results</li>
+                            </ul>
+                        </Typography>
+                    </Grid>
+                    <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>
+                        <Typography variant="body" component="div" gutterBottom>
                             It is noticible how ethinicity can increase results. It is also more alarming
                             to think of that a huge portion of current in use models were trained using
                             datasets that not even have ethinicity as a feature.
