@@ -22,11 +22,9 @@ function WhatIsTheProject() {
                             What is the project about?
                         </Typography>
                         <Typography variant="h6" component="div" gutterBottom>
-                            We analyzed difference datasets for cardiovascular diseases
-                            that are used in machine learning models. With that, we found
-                            that there is a huge underrepresentation of ethnic minorities.
-                            With that said, this website was created as a way to vizualize
-                            our findings.
+                            The research project is about the bias of popular datasets used to predict
+                            cardiovascular diseases. We focused in how ethinicities are represented in each dataset
+                            and how this can affect the results of the models. 
                         </Typography>
                     </Grid>
                 </Grid>

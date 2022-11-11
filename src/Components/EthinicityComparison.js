@@ -248,6 +248,9 @@ function EthinicityComparison(props) {
                             <ul>
                                 <li>Highlight the difference in ethinicity distribution when compared to the national census</li>
                             </ul>
+                            <ul>
+                                <li>Show that good datasets for machine learning don't need to represent populations exatcly as they are.</li>
+                            </ul>
                         </Typography>
                     </Grid>
                     <Grid style={{ textAlign: 'justify' }} item xs={12} md={12}>

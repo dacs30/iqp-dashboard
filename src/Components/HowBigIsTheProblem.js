@@ -106,12 +106,6 @@ function HowBigIsTheProblem() {
                             to think of that a huge portion of current in use models were trained using
                             datasets that not even have ethinicity as a feature.
                         </Typography>
-                        {/* <Typography variant="h6" component="div" gutterBottom>
-                            It is noticible how ethinicity can increase results. However, it is important to
-                            mention that, at the same time that it is beneficial to have good, distributed, data
-                            that contains ethinicty, there are also studies that bring new mathematical approaches
-                            that eliminate the need for ethinicty as a feature. This is the case of the following
-                        </Typography> */}
                     </Grid>
                 </Grid>
             </div>
