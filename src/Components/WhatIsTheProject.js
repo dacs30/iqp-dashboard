@@ -24,7 +24,8 @@ function WhatIsTheProject() {
                         <Typography variant="h6" component="div" gutterBottom>
                             The research project is about the bias of popular datasets used to predict
                             cardiovascular diseases. We focused in how ethinicities are represented in each dataset
-                            and how this can affect the results of the models. 
+                            and how this can affect the results of the models. This website is a summary of our
+                            findings.
                         </Typography>
                     </Grid>
                 </Grid>
